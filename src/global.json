@@ -1,0 +1,4 @@
+{
+  "projects": [ "DemoApp", "Lib" ],
+  "sources": [ "DemoApp/DemoApp.UWP" ]
+}

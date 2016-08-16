@@ -7,7 +7,7 @@
     <ProjectGuid>{BC9B9AD9-F343-4835-9969-4B8B49A87CE8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Specflow.Xamarin.Forms</RootNamespace>
+    <RootNamespace>Specflow.XamarinForms</RootNamespace>
     <AssemblyName>Specflow.Xamarin.Forms</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

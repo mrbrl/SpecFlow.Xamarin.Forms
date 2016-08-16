@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace SpecFlow.Xamarin.Forms.Navigation
+namespace SpecFlow.XamarinForms.Navigation
 {
     /// <summary>
     /// The NavigationService interface.

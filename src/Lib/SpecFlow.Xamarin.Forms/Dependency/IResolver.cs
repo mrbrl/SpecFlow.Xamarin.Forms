@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpecFlow.Xamarin.Forms.Dependency
+namespace SpecFlow.XamarinForms.Dependency
 {
     public interface IResolver
     {

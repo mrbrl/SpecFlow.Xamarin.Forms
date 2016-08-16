@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:SpecFlow.Xamarin.Forms.DemoApp"
-             x:Class="SpecFlow.Xamarin.Forms.DemoApp.MainPage">
+             x:Class="SpecFlow.XamarinForms.DemoApp.MainPage">
 
   <ContentPage.Content>
     <StackLayout Padding="10,20,10,10" HorizontalOptions="CenterAndExpand" Spacing="10" Orientation="Vertical" x:Name="RelLayout">
-      <Label Text="SpecFlow.Xamarin.Forms Demo" FontSize="18" HorizontalTextAlignment="Center" />
+      <Label Text="SpecFlow.XamarinForms Demo" FontSize="18" HorizontalTextAlignment="Center" />
 
       <BoxView HeightRequest="30" BackgroundColor="Transparent"></BoxView>
 

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
-using SpecFlow.Xamarin.Forms.Dependency;
-using SpecFlow.Xamarin.Forms.Navigation;
+using SpecFlow.XamarinForms.Dependency;
+using SpecFlow.XamarinForms.Navigation;
 
-namespace SpecFlow.Xamarin.Forms
+namespace SpecFlow.XamarinForms
 {
     public abstract class TestApp 
     {

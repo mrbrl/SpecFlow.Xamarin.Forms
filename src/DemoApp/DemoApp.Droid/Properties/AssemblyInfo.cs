@@ -6,11 +6,11 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SpecFlow.Xamarin.Forms.DemoApp.Droid")]
+[assembly: AssemblyTitle("SpecFlow.XamarinForms.DemoApp.Droid")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SpecFlow.Xamarin.Forms.DemoApp.Droid")]
+[assembly: AssemblyProduct("SpecFlow.XamarinForms.DemoApp.Droid")]
 [assembly: AssemblyCopyright("Copyright © Xamariners 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

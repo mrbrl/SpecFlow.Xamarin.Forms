@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace SpecFlow.Xamarin.Forms.DemoApp
+namespace SpecFlow.XamarinForms.DemoApp
 {
     public class MainViewModel : INotifyPropertyChanged
     {

@@ -1,6 +1,6 @@
-﻿using SpecFlow.Xamarin.Forms.Navigation;
+﻿using SpecFlow.XamarinForms.Navigation;
 
-namespace SpecFlow.Xamarin.Forms.DemoApp.UnitTest.Infrastructure
+namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Infrastructure
 {
     public class DemoAppTest : TestApp
     {

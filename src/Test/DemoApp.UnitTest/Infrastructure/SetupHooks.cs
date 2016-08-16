@@ -1,6 +1,6 @@
 ﻿using TechTalk.SpecFlow;
 
-namespace SpecFlow.Xamarin.Forms.DemoApp.UnitTest.Infrastructure
+namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Infrastructure
 {
     [Binding]
     public class SetupHooks : TestSetupHooks

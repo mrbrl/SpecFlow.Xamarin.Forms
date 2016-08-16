@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpecFlow.Xamarin.Forms.Extensions
+namespace SpecFlow.XamarinForms.Extensions
 {
     public static class Extensions
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SpecFlow.Xamarin.Forms.Navigation
+namespace SpecFlow.XamarinForms.Navigation
 {
     /// <summary>
     /// The view model mapping.

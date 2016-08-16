@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlow.Xamarin.Forms.DemoApp.UnitTest.Tests
+namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Tests
 {
     using TechTalk.SpecFlow;
     

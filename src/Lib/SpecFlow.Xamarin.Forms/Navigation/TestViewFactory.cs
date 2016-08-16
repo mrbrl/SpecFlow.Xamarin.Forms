@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using SpecFlow.Xamarin.Forms.Dependency;
+using SpecFlow.XamarinForms.Dependency;
 using Xamarin.Forms;
 
 
-namespace SpecFlow.Xamarin.Forms.Navigation
+namespace SpecFlow.XamarinForms.Navigation
 {
     // we cannot use xlabs built in ViewFactory as it forces viewmodels to implement xlabs viewmodel base
     // and we want to allow any framework to use this testing library

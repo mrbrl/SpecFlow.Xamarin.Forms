@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+
 using Xamarin.Forms;
 
-namespace SpecFlow.Xamarin.Forms.DemoApp
+
+namespace SpecFlow.XamarinForms.DemoApp
 {
 	public partial class MainPage : ContentPage
 	{

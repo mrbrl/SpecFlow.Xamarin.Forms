@@ -1,9 +1,9 @@
-﻿using SpecFlow.Xamarin.Forms.Dependency;
-using SpecFlow.Xamarin.Forms.Extensions;
-using SpecFlow.Xamarin.Forms.Navigation;
+﻿using SpecFlow.XamarinForms.Dependency;
+using SpecFlow.XamarinForms.Extensions;
+using SpecFlow.XamarinForms.Navigation;
 using TechTalk.SpecFlow;
 
-namespace SpecFlow.Xamarin.Forms.DemoApp.UnitTest.Tests
+namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Tests
 {
     [Binding]
     public class GeneralSteps : TestStepBase

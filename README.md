@@ -1,6 +1,6 @@
 # SpecFlow.Xamarin.Forms
 
-Behaviour Driven Development for Xamarin.Forms
+Behaviour Driven Development Test Library for Xamarin.Forms
 
 The purpose of this library is to provide a simple method that allows behaviour driven development with Xamarin.Forms, effectively implementing your features starting from a scenario definition up to the ViewModel (and whatever you have in stock beyond!), leaving the UI aside. If you are new to BDD, check Specflow out : http://www.specflow.org/getting-started/
 

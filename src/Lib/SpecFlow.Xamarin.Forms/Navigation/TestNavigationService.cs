@@ -1,14 +1,14 @@
-﻿using SpecFlow.Xamarin.Forms.Dependency;
+﻿using SpecFlow.XamarinForms.Dependency;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SpecFlow.Xamarin.Forms.Extensions;
+using SpecFlow.XamarinForms.Extensions;
 using Xamarin.Forms;
 
-namespace SpecFlow.Xamarin.Forms.Navigation
+namespace SpecFlow.XamarinForms.Navigation
 {
     public class TestNavigationService : INavigationService
     {

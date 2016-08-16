@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("SpecFlow.Xamarin.Forms.DemoApp.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("SpecFlow.XamarinForms.DemoApp.Droid.Resource", IsApplication=true)]
 
-namespace SpecFlow.Xamarin.Forms.DemoApp.Droid
+namespace SpecFlow.XamarinForms.DemoApp.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace SpecFlow.Xamarin.Forms.DemoApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SpecFlow.Xamarin.Forms.DemoApp.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SpecFlow.XamarinForms.DemoApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

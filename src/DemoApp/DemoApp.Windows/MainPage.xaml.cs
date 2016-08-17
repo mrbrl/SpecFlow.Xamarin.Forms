@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace SpecFlow.XamarinForms.DemoApp.Windows
+namespace SpecFlow.XForms.DemoApp.Windows
 {
 	public sealed partial class MainPage
 	{

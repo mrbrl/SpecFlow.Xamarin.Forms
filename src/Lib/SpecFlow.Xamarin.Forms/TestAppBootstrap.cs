@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
-using SpecFlow.XamarinForms.Dependency;
+using SpecFlow.XFormsDependency;
 
-namespace SpecFlow.XamarinForms
+namespace SpecFlow.XForms
 {
     public class TestAppBootstrap
     {

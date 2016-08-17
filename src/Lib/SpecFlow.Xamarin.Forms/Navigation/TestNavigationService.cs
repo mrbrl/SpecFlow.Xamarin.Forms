@@ -1,14 +1,14 @@
-﻿using SpecFlow.XamarinForms.Dependency;
+﻿using SpecFlow.XFormsDependency;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SpecFlow.XamarinForms.Extensions;
+using SpecFlow.XFormsExtensions;
 using Xamarin.Forms;
 
-namespace SpecFlow.XamarinForms.Navigation
+namespace SpecFlow.XFormsNavigation
 {
     public class TestNavigationService : INavigationService
     {
@@ -163,15 +163,12 @@ namespace SpecFlow.XamarinForms.Navigation
 
                     if (view.Parent == null && !NavigationRoot.ModalStack.Contains(view))
                         await NavigationRoot.PushModalAsync(view, isAnimated);
-
                 }
                 else
                 {
-
                     if (view.Parent == null && NavigationRoot != null && !NavigationRoot.NavigationStack.Contains(view))
                     {
                         await NavigationRoot.PushAsync(view, isAnimated);
-
                     }
                     else
                     {
@@ -189,6 +186,7 @@ namespace SpecFlow.XamarinForms.Navigation
                 }
 
                 CurrentViewModel = (TViewModel)view?.BindingContext;
+                CurrentPage = (ContentPage)view;
 
                 return view;
             }
@@ -210,6 +208,8 @@ namespace SpecFlow.XamarinForms.Navigation
             CurrentViewModel = NavigationRoot.NavigationStack
                 .FirstOrDefault(x => x.BindingContext.GetType() == CurrentViewModelType)?.BindingContext;
 
+            CurrentPage = (ContentPage)NavigationRoot.NavigationStack.FirstOrDefault();
+
             // avail soon on xlabs
             //TestViewFactory.ClearCache();
         }
@@ -221,6 +221,7 @@ namespace SpecFlow.XamarinForms.Navigation
             CurrentViewModelType = ViewModelStack.Peek().GetUnderlyingType();
             CurrentViewModel = NavigationRoot.NavigationStack
                  .FirstOrDefault(x => x.BindingContext.GetType() == CurrentViewModelType)?.BindingContext;
+            CurrentPage = CurrentPage = (ContentPage)NavigationRoot.NavigationStack.FirstOrDefault();
         }
          
 

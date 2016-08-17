@@ -1,6 +1,6 @@
 ﻿using TechTalk.SpecFlow;
 
-namespace SpecFlow.XamarinForms
+namespace SpecFlow.XForms
 {
     public abstract class TestSetupHooks
     {

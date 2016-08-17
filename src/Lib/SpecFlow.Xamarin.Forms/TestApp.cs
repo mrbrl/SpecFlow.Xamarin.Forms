@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using Specflow.XForms.Navigation;
 using Xamarin.Forms;
-using SpecFlow.XamarinForms.Dependency;
-using SpecFlow.XamarinForms.Navigation;
+using SpecFlow.XFormsDependency;
+using SpecFlow.XFormsNavigation;
 
-namespace SpecFlow.XamarinForms
+namespace SpecFlow.XForms
 {
     public abstract class TestApp 
     {
@@ -35,6 +36,7 @@ namespace SpecFlow.XamarinForms
         protected virtual void InitialiseContainer()
         {
             Resolver.Instance.Register<INavigationService, TestNavigationService>(LifetimeScopeEnum.Singleton);
+            Resolver.Instance.Register<INavigation, TestNavigation>(LifetimeScopeEnum.Singleton);
         }
 
         /// <summary>

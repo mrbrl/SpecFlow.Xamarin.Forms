@@ -1,6 +1,6 @@
-﻿using SpecFlow.XamarinForms.Navigation;
+﻿using SpecFlow.XFormsNavigation;
 
-namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Infrastructure
+namespace SpecFlow.XForms.DemoApp.UnitTest.Infrastructure
 {
     public class DemoAppTest : TestApp
     {
@@ -10,11 +10,12 @@ namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Infrastructure
 
             // register your views / viewmodels below
             RegisterView<MainPage, MainViewModel>();
+            RegisterView<AnotherPage, AnotherViewModel>();
         }
 
         protected override void InitialiseContainer()
         {
-            // add any di registration here
+            // add any dependency injection registration goes  here
             // Resolver.Instance.Register<TInterface, TType>();
             base.InitialiseContainer();
         }

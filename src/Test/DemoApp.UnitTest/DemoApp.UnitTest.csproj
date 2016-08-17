@@ -7,7 +7,7 @@
     <ProjectGuid>{1A3A9447-03CB-46AC-9886-694018B7EC3F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpecFlow.Xamarin.Forms.DemoApp.UnitTest</RootNamespace>
+    <RootNamespace>SpecFlow.XForms.DemoApp.UnitTest</RootNamespace>
     <AssemblyName>SpecFlow.Xamarin.Forms.DemoApp.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -78,7 +78,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Tests\General.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>General.feature.cs</LastGenOutput>
@@ -92,6 +94,10 @@
     <ProjectReference Include="..\..\Lib\SpecFlow.Xamarin.Forms\SpecFlow.Xamarin.Forms.csproj">
       <Project>{BC9B9AD9-F343-4835-9969-4B8B49A87CE8}</Project>
       <Name>SpecFlow.Xamarin.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Lib\SpecFlow.Xamarin.Forms.IViewModel\SpecFlow.Xamarin.Forms.IViewModel.csproj">
+      <Project>{E1885BDC-CBED-4B7D-A077-D1A104216685}</Project>
+      <Name>SpecFlow.Xamarin.Forms.IViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

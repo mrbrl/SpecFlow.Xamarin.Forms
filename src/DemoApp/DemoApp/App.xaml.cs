@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using global::Xamarin.Forms.Xaml;
+using global::Xamarin.Forms;
 
-using Xamarin.Forms;
 
-
-namespace SpecFlow.XamarinForms.DemoApp
+namespace SpecFlow.XForms.DemoApp
 {
 	public partial class App : Application
 	{
@@ -16,7 +16,7 @@ namespace SpecFlow.XamarinForms.DemoApp
 		{
 			InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
 		}
 	}
 }

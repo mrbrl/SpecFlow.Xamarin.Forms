@@ -1,12 +1,12 @@
-﻿using SpecFlow.XamarinForms.Dependency;
+﻿using SpecFlow.XFormsDependency;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using SpecFlow.XamarinForms.Navigation;
+using SpecFlow.XFormsNavigation;
 using TechTalk.SpecFlow;
 
 
-namespace SpecFlow.XamarinForms
+namespace SpecFlow.XForms
 {
     public class TestStepBase
     {

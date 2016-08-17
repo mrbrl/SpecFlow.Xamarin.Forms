@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SpecFlow.XamarinForms.DemoApp.iOS")]
+[assembly: AssemblyTitle("SpecFlow.Xamarin.Forms.DemoApp.iOS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SpecFlow.XamarinForms.DemoApp.iOS")]
+[assembly: AssemblyProduct("SpecFlow.Xamarin.Forms.DemoApp.iOS")]
 [assembly: AssemblyCopyright("Copyright © Xamariners 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SpecFlow.XamarinForms.DemoApp.MainPage">
+             x:Class="SpecFlow.XForms.DemoApp.MainPage">
 
   <ContentPage.Content>
     <StackLayout Padding="10,20,10,10" HorizontalOptions="CenterAndExpand" Spacing="10" Orientation="Vertical" x:Name="RelLayout">
@@ -10,6 +10,12 @@
       <BoxView HeightRequest="30" BackgroundColor="Transparent"></BoxView>
 
       <Button Text="Test Button" Command="{Binding GetTextCommand}" BorderColor="Gray" BorderWidth="2">
+      </Button>
+
+      <Button Text="Go Forward Button from ViewModel" Command="{Binding GoForwardVMCommand}" BorderColor="Gray" BorderWidth="2">
+      </Button>
+
+      <Button Text="Go Forward Button from Code Behind" Clicked="GoForwardCB" BorderColor="Gray" BorderWidth="2">
       </Button>
 
       <BoxView HeightRequest="30"  BackgroundColor="Transparent"></BoxView>

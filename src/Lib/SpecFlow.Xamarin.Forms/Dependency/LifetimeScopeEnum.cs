@@ -1,4 +1,4 @@
-﻿namespace SpecFlow.XamarinForms.Dependency
+﻿namespace SpecFlow.XFormsDependency
 {
     public enum LifetimeScopeEnum
     {

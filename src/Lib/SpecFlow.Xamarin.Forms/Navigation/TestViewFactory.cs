@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using SpecFlow.XamarinForms.Dependency;
+using SpecFlow.XForms.IViewModel;
+using SpecFlow.XFormsDependency;
 using Xamarin.Forms;
 
 
-namespace SpecFlow.XamarinForms.Navigation
+namespace SpecFlow.XFormsNavigation
 {
     // we cannot use xlabs built in ViewFactory as it forces viewmodels to implement xlabs viewmodel base
     // and we want to allow any framework to use this testing library
@@ -63,7 +64,10 @@ namespace SpecFlow.XamarinForms.Navigation
             }
 
             Page page = instance as Page;
-           
+
+            if (page != null && viewModel is IViewModel)
+                ((IViewModel) viewModel).Navigation = Resolver.Instance.Resolve<INavigation>(); //page.Navigation;
+
             return instance;
         }
 
@@ -73,6 +77,7 @@ namespace SpecFlow.XamarinForms.Navigation
             {
                 if (initialiser == null)
                     return;
+
                 initialiser((TViewModel)o1, (TPage)o2);
             }), args);
         }

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>SpecFlow.Xamarin.Forms.IViewModel</id>
+		<version>0.1</version>
+		<title>SpecFlow.Xamarin.Forms.IViewModel - Internal Navigation Testing for Behaviour Driven Development Test Library for Xamarin.Forms</title>
+		<authors>Ben Ishiyama-levy (Xamariners)</authors>
+		<owners>Ben Ishiyama-levy (Xamariners)</owners>
+		<description>
+			 Interface that allows Internal Navigation Testing for Behaviour Driven Development Test Library for Xamarin.Forms
+		</description>
+		<releaseNotes>
+			- Initial Release
+		</releaseNotes>
+		<summary>
+			 Interface that allows Internal Navigation Testing for Behaviour Driven Development Test Library for Xamarin.Forms
+		</summary>
+		<language>en-US</language>
+		<projectUrl>https://github.com/mrbrl/SpecFlow.Xamarin.Forms</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+		<copyright>Copyright Xamariners 2016</copyright>	
+		<tags>xamarin xamarin.forms PCL Bdd SpecFlow UnitTest Test Navigation NUnit Tdd uwp winrt android ios xamarin monoandroid monodroid monotouch xamariners</tags>
+    <dependencies>
+      <dependency id="NUnit" version="3.4.1"/>
+	  <dependency id="SpecFlow" version="2.1.0"/>
+	  <dependency id="Autofac" version="4.0.0"/>
+	  <dependency id="Xamarin.Forms " version="2.3.1.114"/> 
+    </dependencies>
+	</metadata>
+	<files>
+    <!-- all pcl -->
+    <file src="..\Lib\SpecFlow.Xamarin.Forms.IViewModel\bin\Release\SpecFlow.Xamarin.Forms.IViewModel.dll" target="lib\portable-net45+netcore45+wpa81+wp8+monoandroid+monotouch+xamarinios10+xamarinmac\SpecFlow.Xamarin.Forms.IViewModel.dll" />  
+  </files>
+</package>

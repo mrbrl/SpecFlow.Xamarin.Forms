@@ -3,7 +3,7 @@ using System.Collections;
 using System.ComponentModel;
 using NUnit.Framework;
 
-namespace SpecFlow.XamarinForms.Extensions
+namespace SpecFlow.XFormsExtensions
 {
     /// <summary>
     ///     UnitTesting extensions

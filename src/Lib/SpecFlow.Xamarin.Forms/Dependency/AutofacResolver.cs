@@ -1,7 +1,7 @@
 ﻿using System;
 using Autofac;
 
-namespace SpecFlow.XamarinForms.Dependency
+namespace SpecFlow.XFormsDependency
 {
     public class AutoFacResolver : IResolver
     {

@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Linq;
+using System.Reflection;
 
-namespace SpecFlow.XamarinForms.Extensions
+namespace SpecFlow.XFormsExtensions
 {
     public static class Extensions
     {

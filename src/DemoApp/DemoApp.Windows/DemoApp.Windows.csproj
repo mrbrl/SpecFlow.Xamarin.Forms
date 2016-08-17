@@ -7,7 +7,7 @@
     <ProjectGuid>{C2DC2B91-D0E0-43AC-8549-67F2F9A8875F}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpecFlow.XamarinForms.DemoApp.Windows</RootNamespace>
+    <RootNamespace>SpecFlow.XForms.DemoApp.Windows</RootNamespace>
     <AssemblyName>SpecFlow.Xamarin.Forms.DemoApp.Windows</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>

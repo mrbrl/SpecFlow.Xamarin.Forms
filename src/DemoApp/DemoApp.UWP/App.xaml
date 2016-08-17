@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="SpecFlow.XamarinForms.DemoApp.UWP.App"
+    x:Class="SpecFlow.XForms.DemoApp.UWP.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:SpecFlow.XamarinForms.DemoApp.UWP"
+    xmlns:local="using:SpecFlow.XForms.DemoApp.UWP"
     RequestedTheme="Light">
 
 </Application>

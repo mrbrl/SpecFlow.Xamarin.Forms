@@ -7,7 +7,7 @@
     <ProjectGuid>{C6CD8530-FECA-4B06-AFDD-7CC02D00FD4C}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpecFlow.XamarinForms.DemoApp</RootNamespace>
+    <RootNamespace>SpecFlow.XForms.DemoApp.UWP</RootNamespace>
     <AssemblyName>SpecFlow.Xamarin.Forms.DemoApp.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>

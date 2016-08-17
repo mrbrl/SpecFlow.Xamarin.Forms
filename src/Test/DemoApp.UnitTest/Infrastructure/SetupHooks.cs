@@ -1,6 +1,6 @@
 ﻿using TechTalk.SpecFlow;
 
-namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Infrastructure
+namespace SpecFlow.XForms.DemoApp.UnitTest.Infrastructure
 {
     [Binding]
     public class SetupHooks : TestSetupHooks
@@ -11,6 +11,7 @@ namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Infrastructure
         [AfterScenario]
         public void AfterScenarioBlock()
         {
+            // read specflow doc for more info
             base.AfterScenarioBlock();
         }
 
@@ -20,6 +21,7 @@ namespace SpecFlow.XamarinForms.DemoApp.UnitTest.Infrastructure
         [BeforeScenario]
         public void BeforeScenario()
         {
+            // runs before each scenario
             // bootstrap test app with your test app and your starting viewmodel
             new TestAppBootstrap().RunApplication<DemoAppTest, MainViewModel>();
         }

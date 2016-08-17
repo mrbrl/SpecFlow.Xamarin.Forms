@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace SpecFlow.XamarinForms.DemoApp.iOS
+namespace SpecFlow.XForms.DemoApp.iOS
 {
 	public class Application
 	{

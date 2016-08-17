@@ -25,11 +25,12 @@
       <dependency id="NUnit" version="3.4.1"/>
 	  <dependency id="SpecFlow" version="2.1.0"/>
 	  <dependency id="Autofac" version="4.0.0"/>
-	  <dependency id="Xamarin.Forms " version="2.3.1.114"/> 
+	  <dependency id="Xamarin.Forms" version="2.3.1.114"/> 
+	  <dependency id="SpecFlow.Xamarin.Forms.IViewModel" version="0.1"/>
     </dependencies>
 	</metadata>
 	<files>
     <!-- all -->
-    <file src="Lib\SpecFlow.Xamarin.Forms\bin\Release\SpecFlow.Xamarin.Forms.dll" target="lib\net451\SpecFlow.Xamarin.Forms.dll" />  
+    <file src="..\Lib\SpecFlow.Xamarin.Forms\bin\Release\SpecFlow.Xamarin.Forms.dll" target="lib\net451\SpecFlow.Xamarin.Forms.dll" />  
   </files>
 </package>

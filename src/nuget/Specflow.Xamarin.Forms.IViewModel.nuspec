@@ -22,11 +22,9 @@
 		<copyright>Copyright Xamariners 2016</copyright>	
 		<tags>xamarin xamarin.forms PCL Bdd SpecFlow UnitTest Test Navigation NUnit Tdd uwp winrt android ios xamarin monoandroid monodroid monotouch xamariners</tags>
     <dependencies>
-      <dependency id="NUnit" version="3.4.1"/>
-	  <dependency id="SpecFlow" version="2.1.0"/>
-	  <dependency id="Autofac" version="4.0.0"/>
 	  <dependency id="Xamarin.Forms " version="2.3.1.114"/> 
     </dependencies>
+	<iconUrl>https://avatars2.githubusercontent.com/u/2474918</iconUrl>
 	</metadata>
 	<files>
     <!-- all pcl -->

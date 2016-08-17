@@ -8,20 +8,15 @@ namespace SpecFlow.XForms.DemoApp
 {
     public class MainViewModel : INotifyPropertyChanged, IViewModel.IViewModel
     {
+        public INavigation Navigation { get; set; }
+
         public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
+      
         private string _text = "";
 
         public ICommand GetTextCommand => new Command(() => GetText());
         public ICommand GoForwardVMCommand => new Command(GoForwardVM);
-
-        public INavigation Navigation { get; set; }
-
+        
         public string Text
         {
             get { return _text; }
@@ -49,5 +44,11 @@ namespace SpecFlow.XForms.DemoApp
             // to populate the INavigation on your ViewModel (populated on ManView codebehind for demo purposes)
             Navigation?.PushAsync(new AnotherPage());
         }
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
     }
 }
